@@ -23,7 +23,7 @@ function AccessibilityTable({ accessibilityData }: { accessibilityData?: Compone
   return (
     <Table accessibilityLabel="Component Accessibility Checklist">
       <colgroup>
-        {['20%', '20%', '60%'].map((width) => (
+        {['30%', '20%', '60%'].map((width) => (
           <col key={width} style={{ width }} />
         ))}
       </colgroup>
